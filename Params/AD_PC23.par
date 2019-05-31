@@ -1,0 +1,85 @@
+# Neurite version JTB1
+
+# MODEL PARAMETERS
+# MODEL: AD
+1
+# Branching scale factor (Kbr):
+0.0126
+# Diffusion rate (D):
+0
+# Active transport rate (f):
+100
+# Soma production rate (I):
+2
+# Soma uptake rate (G0):
+1
+# Terminal uptake rate (Gn):
+100
+# Conc. calc. length (dL):
+1.0
+# Minimum length (minL):
+5.0
+# Branching phase rate (Vbr):
+0.22
+# Elongation phase rate (Vel):
+0.51
+# Rate coefficient of variation (rCV):
+0.28
+# Time branching stops (Tbstop):
+264
+# Soma length:
+10.0
+# Soma diameter:
+10.0
+# Terminal diameter:
+1.0
+# Branch power (e):
+4
+
+# SIMULATION PARAMETERS
+# Number of trees:
+1
+# Time step (dt):
+0.001
+# Simulation time (Tstop):
+200
+# Store statistics (1=yes):
+0
+# Statistics file stem:
+AD
+# Store concentrations (1=yes):
+0
+# Concentration file stem:
+AD
+# Store lengths (1=yes):
+0
+# Length file stem:
+AD
+# Store no. terminals over time (1=yes):
+0
+# Storage interval (time):
+1
+
+# DISPLAY PARAMETERS
+# Display width:
+600
+# Display height:
+350
+# Display parameter:
+Cbr
+# Maximum display value:
+1.0
+# Display interval (steps):
+1000
+# Display delay (msecs):
+0
+# Maximum path length (um):
+100
+# Initial branch angle (deg):
+20
+# Angle scaling factor:
+-0.4
+# Soma scaling factor:
+1.0
+# Dendrite scaling factor:
+5.0
