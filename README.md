@@ -12,17 +12,17 @@ Help Contents:
 
 ## 1. Author Details:
 
-Author: Bruce P. Graham, Department of Computing Science and Mathematics,
-University of Stirling, Scotland, U.K.
-Email: b.graham@cs.stir.ac.uk
+Author: Bruce P. Graham, Department of Computing Science and Mathematics,  
+University of Stirling, Scotland, U.K.  
+Email: b.graham@cs.stir.ac.uk  
 Web: [www.cs.stir.ac.uk/~bpg/](http://www.cs.stir.ac.uk/~bpg/)
 
 ---
 
 ## 2. System Requirements:
 
-Should run on any system supporting Java 2.
-Code provided as executable jar file (e.g. java -jar Neurite.jar).
+Should run on any system supporting Java 2.  
+Code provided as executable jar file (e.g. java -jar Neurite.jar).  
 Example parameter files in "Params" subdirectory.
 
 ---
@@ -55,7 +55,7 @@ The simulator currently contains three models of neurite outgrowth.
 
 This is an implementation of van Pelt's stochastic model of
 dendritic development, based on the description given in
-van Pelt and Uylings (1999).
+van Pelt and Uylings (1999).  
 Example parameter files:
 - BESTL_PC23.par - rat cortical layer 2/3 pyramidal cell basal
   dendrites (van Pelt et al, 2001)
@@ -71,14 +71,14 @@ Biophysical model of neurite outgrowth described in Graham and
 van Ooyen (2004). In the model, branching depends on the
 concentration of a branch-determining substance in each terminal
 segment. The substance is produced in the cell body and is
-transported by active transport and diffusion to the terminals.
+transported by active transport and diffusion to the terminals.  
 The model reveals that transport-limited effects may give rise
 to the same modulation of branching as indicated by the
 stochastic BESTL model. Different limitations arise if transport
 is dominated by active transport or by diffusion. Example
 parameter files for reproducing the same trees as for the BESTL
 model are provided (see Figure 4 and Table 2 of Graham &
-van Ooyen, 2004).
+van Ooyen, 2004).  
 Example parameter files: AD_PC23.par, AD_PC5.par, AD_nonPC.par, AD_Pur.par
 
 ### 3. ADcm
@@ -94,9 +94,9 @@ split into two when their length reaches twice the length of
 other compartments. A branching event results in a growth cone
 compartment being replaced by four new compartments, consisting
 of a new growth cone and one preceding compartment for the two
-new daughter branches.
+new daughter branches.  
 Concentration gradients are most obvious when transport is by
-slow diffusion.
+slow diffusion.  
 Example parameter file: ADcm_D600.par
 
 ---
